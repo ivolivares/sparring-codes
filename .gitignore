@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+# Tests ocultos y soluciones de referencia que genera el coach. Fuera de git para no
+# publicar spoilers (y porque se regeneran cuando hacen falta).
+.coach/

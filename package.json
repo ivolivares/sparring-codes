@@ -1,0 +1,15 @@
+{
+  "name": "sparring-codes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Práctica de algoritmos (NeetCode 150) con Claude Code como entrevistador y tutor",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "coach": "node scripts/coach.mjs",
+    "next": "node scripts/coach.mjs next",
+    "stats": "node scripts/coach.mjs stats",
+    "due": "node scripts/coach.mjs due",
+    "test": "node --test \"practice/**/*.test.js\""
+  }
+}

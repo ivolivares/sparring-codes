@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/coach.mjs *)",
+      "Bash(npm test)",
+      "Bash(npm run *)",
+      "Edit(/.coach/**)",
+      "Edit(/practice/**/examples.test.js)"
+    ],
+    "deny": [
+      "Edit(/practice/**/solution.js)",
+      "Edit(practice/**/solution.js)",
+      "Edit(/practice/**/edge.test.js)",
+      "Edit(practice/**/edge.test.js)",
+      "Edit(/progress/state.json)",
+      "Edit(/catalog/**)"
+    ]
+  }
+}
