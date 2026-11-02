@@ -2,6 +2,7 @@
   "name": "sparring-codes",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Práctica de algoritmos (NeetCode 150) con Claude Code como entrevistador y tutor",
   "type": "module",
   "engines": { "node": ">=20" },

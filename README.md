@@ -77,3 +77,7 @@ El CLI también se puede usar sin Claude: `npm run stats`, `npm run due`, `node 
 - Los enunciados no se copian de LeetCode (tienen derechos de autor): Claude los redacta y el link apunta al original. Por eso los 7 problemas que son premium en LeetCode también se pueden practicar aquí.
 - Si haces público el repo, `.coach/` queda fuera, pero tus soluciones en `practice/` sí se publican.
 - Ritmo recomendado: un problema al día y la cola de repasos al día. Diez problemas un domingo rinden menos que uno diario durante dos semanas.
+
+## Licencia
+
+[MIT](LICENSE). La lista de problemas sigue la selección NeetCode 150; los problemas y sus enunciados originales pertenecen a LeetCode y se enlazan, no se reproducen.
